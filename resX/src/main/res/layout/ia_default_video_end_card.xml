@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/ia_endcard_button_margin_bottom"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/ia_b_end_card_call_to_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/ia_video_control_margin"
+            android:minHeight="1dp"
+            android:paddingLeft="@dimen/ia_button_padding_lateral"
+            android:paddingRight="@dimen/ia_button_padding_lateral"
+            android:paddingTop="@dimen/ia_endcard_button_padding_vertical"
+            android:paddingBottom="@dimen/ia_endcard_button_padding_vertical"
+            android:background="@drawable/bg_green"
+            android:textSize="@dimen/ia_video_overlay_text_large_plus"
+            android:textColor="@android:color/white"
+            android:lineSpacingMultiplier="1.38"
+            android:letterSpacing="0.04"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:text="@string/ia_default_video_cta_text"/>
+    </LinearLayout>
+</FrameLayout>

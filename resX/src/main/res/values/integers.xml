@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <integer name="tile_ad_activity_animation_time">200</integer>
+    <integer name="ia_ib_button_size_dp">32</integer>
+    <integer name="ia_ib_toolbar_height_dp">48</integer>
+    <integer name="com_startapp_sdk_aar">1</integer>
+</resources>

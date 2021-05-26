@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinremorse.xx">
+
+    <application
+        android:allowBackup="false"
+        android:label="resources"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.XX" />
+
+</manifest>

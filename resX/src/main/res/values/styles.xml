@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LargeIconView">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+    <style name="LargeIconImageView">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+    <style name="SmallIconView">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="SmallIconImageView">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/applovin_sdk_brand_color</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.Live" parent="com.applovin.mediation.MaxDebuggerActivity.ActionBar">
+        <item name="android:background">@color/applovin_sdk_greenColor</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/applovin_sdk_textColorPrimary</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar</item>
+    </style>
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme.Live" parent="com.applovin.mediation.MaxDebuggerActivity.Theme">
+        <item name="android:actionBarStyle">@style/com.applovin.mediation.MaxDebuggerActivity.ActionBar.Live</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:background">@drawable/rounded_text_view_border</item>
+        <item name="android:textColor">@color/applovin_sdk_adBadgeTextColor</item>
+        <item name="android:text">Ad</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeAdBadgeTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingBodyTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalBodyTextSize" parent="android:Widget.TextView">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalTitleTextSize" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalBodyTextSize" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalTitleTextSize" parent="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="InneractiveAppTheme.Home" parent="android:Theme.NoTitleBar.Fullscreen"/>
+    <style name="smaato_sdk_core_browserProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminate">false</item>
+        <item name="android:progressDrawable">@drawable/smaato_sdk_core_browser_progress_bar</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+    </style>
+    <style name="smaato_sdk_richmedia_expandable_dialog" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/smaato_sdk_core_ui_semitransparent</item>
+    </style>
+    <style name="YandexAdsInternal"/>
+    <style name="YandexAdsInternal.BaseCallToAction" parent="android:Widget">
+        <item name="android:background">@drawable/yandex_ads_internal_call_to_action_background</item>
+        <item name="android:textAppearance">@style/YandexAdsInternal.CallToActionTextAppearance</item>
+        <item name="android:minHeight">@dimen/yandex_ads_internal_button_min_height</item>
+        <item name="android:minWidth">@dimen/yandex_ads_internal_button_min_width</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="YandexAdsInternal.BaseCallToActionTextAppearance">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/yandex_ads_internal_call_to_action_text_color_black</item>
+        <item name="android:textSize">@dimen/yandex_ads_internal_button_text_size</item>
+    </style>
+    <style name="YandexAdsInternal.CallToAction" parent="YandexAdsInternal.BaseCallToAction"/>
+    <style name="YandexAdsInternal.CallToActionTextAppearance" parent="YandexAdsInternal.BaseCallToActionTextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="YandexAdsInternal.RatingBar.Small" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/yandex_ads_internal_rating_bar</item>
+        <item name="android:indeterminateDrawable">@drawable/yandex_ads_internal_rating_bar</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:thumb">@null</item>
+    </style>
+    <style name="ia_bottom_left_overlay">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginBottom">@dimen/ia_video_control_margin</item>
+        <item name="android:layout_marginLeft">@dimen/ia_video_control_margin</item>
+    </style>
+    <style name="ia_bottom_right_overlay">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">@dimen/ia_video_control_margin</item>
+        <item name="android:layout_marginRight">@dimen/ia_video_control_margin</item>
+    </style>
+    <style name="ia_expand_collapse_button_style" parent="ia_top_right_overlay">
+        <item name="android:layout_width">@dimen/ia_image_control_size</item>
+        <item name="android:layout_height">@dimen/ia_image_control_size</item>
+        <item name="android:padding">@dimen/ia_image_control_padding</item>
+        <item name="android:background">@drawable/ia_round_overlay_bg</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/ia_sel_expand_collapse</item>
+    </style>
+    <style name="ia_mute_button_style" parent="ia_top_left_overlay">
+        <item name="android:layout_width">@dimen/ia_image_control_size</item>
+        <item name="android:layout_height">@dimen/ia_image_control_size</item>
+        <item name="android:padding">@dimen/ia_image_control_padding</item>
+        <item name="android:background">@drawable/ia_round_overlay_bg</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/ia_sel_mute</item>
+    </style>
+    <style name="ia_play_button_style">
+        <item name="android:layout_width">@dimen/ia_play_button_size</item>
+        <item name="android:layout_height">@dimen/ia_play_button_size</item>
+        <item name="android:src">@drawable/ia_play</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="ia_top_left_overlay">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">@dimen/ia_video_control_margin</item>
+        <item name="android:layout_marginLeft">@dimen/ia_video_control_margin</item>
+    </style>
+    <style name="ia_top_right_overlay">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/ia_video_control_margin</item>
+        <item name="android:layout_marginRight">@dimen/ia_video_control_margin</item>
+    </style>
+    <style name="ia_tv_call_to_action_style" parent="ia_bottom_right_overlay">
+        <item name="android:layout_width">@dimen/ia_video_overlay_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/ia_video_overlay_text_view</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/ia_video_text_padding</item>
+        <item name="android:background">@drawable/bg_text_overlay</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ia_tv_remaining_time_style" parent="ia_bottom_left_overlay">
+        <item name="android:layout_width">@dimen/ia_image_control_size</item>
+        <item name="android:layout_height">@dimen/ia_image_control_size</item>
+        <item name="android:textAppearance">@style/ia_video_overlay_text_view</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_circle_overlay</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="ia_tv_skip_style" parent="ia_top_right_overlay">
+        <item name="android:layout_width">@dimen/ia_video_overlay_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:padding">@dimen/ia_video_text_padding</item>
+        <item name="android:background">@drawable/bg_text_overlay</item>
+        <item name="android:textAppearance">@style/ia_video_overlay_text_view</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ia_video_overlay_text_view">
+        <item name="android:textSize">@dimen/ia_video_overlay_text_small</item>
+        <item name="android:textColor">@color/ia_video_overlay_text</item>
+        <item name="android:shadowColor">@color/ia_video_overlay_text_shadow</item>
+        <item name="android:shadowRadius">0.5</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.0</item>
+    </style>
+    <style name="ia_video_progressbar_style" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ia_progress_bar_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:progressDrawable">@drawable/ia_progress_bar_drawable</item>
+    </style>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Presage.AdScreen" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Presage.AdScreen.Translucent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.StackConsentManagerDialogActivity" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+</resources>
